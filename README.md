@@ -92,6 +92,7 @@ Setup:
     ```sh
    ros2 launch create_3_msg_transfer subscriber_launch.py
    ```
+8. Download prediction.txt and classification.txt trained model from the google drive(Link added on main page).
    
 
 
@@ -99,7 +100,7 @@ Setup:
 <!-- USAGE EXAMPLES -->
 ## Examples of Usages
 
-![flowchart](https://github.com/user-attachments/assets/732162bb-8b8d-4f39-a802-67ad5ce7c578)
+![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/14de19ba22c41d21a0d5549ed9238a55e0e8d37b/flowchart.PNG)
 ### Example 1 : Running the iRobot without any error: 
 1. Run create_3_msg_transfer subscriber_launch.py
 2. Run ros2 launch create3_teleop ir_avoider.py
@@ -122,23 +123,21 @@ To get the data of the maintenance stage, I rapped the wheels with the tape.
 ### Example 3: Running the iRobot where IR sensor is not able to detect small height object (such as wires or cardboard/paper):
 1. Repeat the steps 1 till 7 as in Example 1.
 2. In the output of prediction we will get values greater than 0.5 showing that maintenance is required and classification as 1, showing maintenance required because IR sensor can't detect an object.
+![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/14de19ba22c41d21a0d5549ed9238a55e0e8d37b/IMG-20240808-135446%20(1).jpg)
 
-Video link: https://github.com/user-attachments/assets/2ca30d02-452c-4b21-b640-fb6e924bab58
 
 Robot dragging the piece of paper, cardboard and bundle of wire without detecting it.
 
 ### Example 4: Running the iRobot when battery is less than 12%: 
 1. Repeat the steps 1 till 7 as in Example 1.
 2. In the output of prediction we will get values greater than 0.5 showing that maintenance is required and classification as 3, showing that battery of the robot is less, so charge it.
-![Screenshot_2024-10-01-09-07-08-18_92460851df6f172a4592fca41cc2d2e6](https://github.com/user-attachments/assets/00da04b2-01b7-49dc-9d22-0d3ba613d166)
+![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/ed27541316f45eddea25c7d2d706493f2aabc4ff/Screenshot_2024-10-01-09-07-14-23_92460851df6f172a4592fca41cc2d2e6.jpg)
 When robots battery is less than 12% the LED light on top of robot starts blinking in red color.
 
 
 <!-- ROADMAP -->
 ## Roadmap
 Description of the milestones of this project:
-- [ ] ~~Connecting the Rasp. Pi 5 with the server~~
-- [ ] ~~Test the send and accept function~~ 
 - [ ] Searching on building up a Databank on the Server, with SQL or similar tools
 - [ ] Set up a Robot for data collection
    - [ ] Install ROS2 and use the data collection node 
