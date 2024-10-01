@@ -118,7 +118,7 @@ Setup:
 
 ![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/dea14f3c8736bea9e57794c89ba15520e582e2fd/IMG-20240805-160439.jpg)
 
-To get the data of the maintenance stage, I rapped the wheels with the tape.
+To get the data of the maintenance stage, I covered the wheels with the tape.
 
 ### Example 3: Running the iRobot where IR sensor is not able to detect small height object (such as wires or cardboard/paper):
 1. Repeat the steps 1 till 7 as in Example 1.
@@ -126,13 +126,13 @@ To get the data of the maintenance stage, I rapped the wheels with the tape.
 ![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/14de19ba22c41d21a0d5549ed9238a55e0e8d37b/IMG-20240808-135446%20(1).jpg)
 
 
-Robot dragging the piece of paper, cardboard and bundle of wire without detecting it.
+Robot dragging the piece of paper or cardboard and bundle of wire without detecting it.
 
 ### Example 4: Running the iRobot when battery is less than 12%: 
 1. Repeat the steps 1 till 7 as in Example 1.
 2. In the output of prediction we will get values greater than 0.5 showing that maintenance is required and classification as 3, showing that battery of the robot is less, so charge it.
 ![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/ed27541316f45eddea25c7d2d706493f2aabc4ff/Screenshot_2024-10-01-09-07-14-23_92460851df6f172a4592fca41cc2d2e6.jpg)
-When robots battery is less than 12% the LED light on top of robot starts blinking in red color.
+When robots battery is less than 12% the light on top of the robot starts blinking in red color.
 
 
 <!-- ROADMAP -->
