@@ -38,7 +38,7 @@ Robust predictive fault detection strategies are essential within the field of r
 - Pandas 2.2.3
 - Numpy 2.1.1
 - ROS2 Humble
-- LGBM (Light Gradient Boossting Machine) 4.5.0
+- LGBM (Light Gradient Boosting Machine) 4.5.0
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
