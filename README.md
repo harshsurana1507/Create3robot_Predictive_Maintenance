@@ -216,8 +216,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Name:  
-E-mail: 
+Name: Harsh Vardhan Surana  
+E-mail: harshsurana1507@gmail.com
 
 
 
