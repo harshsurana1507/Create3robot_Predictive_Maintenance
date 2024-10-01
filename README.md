@@ -56,16 +56,17 @@ Hardware:
 - Router for a Wi-Fi connection
 
 Setup:
-1. Setting up Create3 Educational Robot.
+1. Setting up Create3 Educational Robots.
    -  Follow the steps as directed on the page: https://edu.irobot.com/create3-setup. And make sure to select "rmw_fastrtps_cpp" as the RMW_IMPLEMENTATION.
-   -  If you are using multiple robot then name the robots differently. Such as I named my robot as robot01.
-   -  Both the robot and the server should have same ROS version (ROS2 Humble present in the Robot at the time of project).
+   -  If you are using multiple robots then name the robots differently. Such as I named my robots as robot01, robot02 and so on.
+   -  All the robots and the server should have same ROS version (ROS2 Humble present in the Robots at the time of project).
    -  Connect the iRobot to a Wi-Fi later the server will also be connected on the same wi-fi.
      
-2. Setting up the Server for collecting data from all the topics.
+2. Setting up the Server for collecting data from all the topics of the robot.
    -  Follow the steps as defined on the site https://iroboteducation.github.io/create3_docs/setup/ubuntu2204/ to install ROS2 humble on the server. In step 10 select echo "export RMW_IMPLEMENTATION=rmw_fastrtps_cpp" >> ~/.bashrc
    -  Connect server to the Wi-Fi (same which is used for iRobot )
-   -  To check whether proper connection has been established between server and iRobot. Type command ros2 topic echo in the terminal. And you will be able to see all the topics of the robot.
+   -  To check whether proper connection has been established between server and iRobot. Type command ros2 topic echo in the terminal. And you will be able to see all the topics of the robots.
+The following steps can be repeated for multiple robots. Only there is a need to change the robot name in every nodes of the package. Like I have used "robot01" in all nodes.
 
 ### Installation
 
