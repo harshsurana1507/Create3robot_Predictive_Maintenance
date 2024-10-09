@@ -124,7 +124,7 @@ To get the data of the maintenance stage, I covered the wheels with the tape.
 ### Example 3: Running the iRobot where IR sensor is not able to detect small height object (such as wires or cardboard/paper):
 1. Repeat the steps 1 till 7 as in Example 1.
 2. In the output of prediction we will get values greater than 0.5 showing that maintenance is required and classification as 1, showing maintenance required because IR sensor can't detect an object.
-![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/14de19ba22c41d21a0d5549ed9238a55e0e8d37b/IMG-20240808-135446%20(1).jpg)
+![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/3b9c0b02a497dc2d1fb50fc7246172cd54dab809/cliff%20error.jpg)
 
 
 Robot dragging the piece of paper or cardboard and bundle of wire without detecting it.
