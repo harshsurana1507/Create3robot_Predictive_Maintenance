@@ -52,7 +52,6 @@ Robust predictive fault detection strategies are essential within the field of r
 ### Setup
 Hardware: 
 - Create3 Educational Robot
-- Raspberry Pi 5 with ROS2 Humble
 - PC as a server with ROS2 Humble
 - Router for a Wi-Fi connection
 
@@ -120,7 +119,7 @@ The following steps can be repeated for multiple robots. Only there is a need to
 
 ![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/dea14f3c8736bea9e57794c89ba15520e582e2fd/IMG-20240805-160439.jpg)
 
-To get the data of the maintenance stage, I covered the wheels with the tape.
+To simulate such malfunction scenario, I wrapped the wheels with the tape. So that friction is developed, which hinders smooth rotation motion of the wheels. And hence motor of the wheels has to apply high torque.
 
 ### Example 3: Running the iRobot where IR sensor is not able to detect small height object (such as wires or cardboard/paper):
 1. Repeat the steps 1 till 7 as in Example 1.
@@ -128,13 +127,16 @@ To get the data of the maintenance stage, I covered the wheels with the tape.
 ![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/3b9c0b02a497dc2d1fb50fc7246172cd54dab809/cliff%20error.jpg)
 
 
-Robot dragging the piece of paper or cardboard and bundle of wire without detecting it.
+To gather the data for this type of scenario, the robot was run over wires, cardboard and paper without getting detected by the IR sensors. Hence robot's base is getting scratched. Moreover,the object may rub against the wheels of the robot, causing wear and tear of the wheels.
+
+  
 
 ### Example 4: Running the iRobot when battery is less than 12%: 
 1. Repeat the steps 1 till 7 as in Example 1.
 2. In the output of prediction we will get values greater than 0.7 showing that maintenance is required and classification as 3, showing that battery of the robot is less, so charge it.
 ![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/ed27541316f45eddea25c7d2d706493f2aabc4ff/Screenshot_2024-10-01-09-07-14-23_92460851df6f172a4592fca41cc2d2e6.jpg)
 When robots battery is less than 12% the light on top of the robot starts blinking in red color.
+To collect the data of this case. I ran the robot, when the battery level goes from 10% until 3%. 
 
 
 <!-- ROADMAP -->
