@@ -1,4 +1,5 @@
-# Data Collection and Fault Prediction for Multiple Mobile Create 3 Robots
+# Machine learning enabled predictive maintenance framework for Create 3 mobile robot 
+![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/92c8ae69ab1de3f565a2bcccb125c8a7de0fee8a/create3%20robot_1.jpg)
 Use https://shields.io/badges to create badges.
 
 ![ROS](https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white)
@@ -100,8 +101,8 @@ The following steps can be repeated for multiple robots. Only there is a need to
 
 <!-- USAGE EXAMPLES -->
 ## Examples of Usages
+![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/f58b6a71a1200797221f1d5d65574f1631175d91/flowchart1.0.PNG)
 
-![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/14de19ba22c41d21a0d5549ed9238a55e0e8d37b/flowchart.PNG)
 ### Example 1 : Running the iRobot without any error: 
 1. Run create_3_msg_transfer subscriber_launch.py
 2. Run ros2 launch create3_teleop ir_avoider.py
@@ -110,11 +111,11 @@ The following steps can be repeated for multiple robots. Only there is a need to
 5. Press Ctrl+c in the terminal where launch file of subscriber_launch is running.
 6. Run the excel_combine.py file to combine all the data of the sensors in 1 excel sheet according to the timestamp.
 7. Use the prediction.txt trained model and classification.txt trained model file. And give the location of the combined excel file.
-8. In the output of prediction we will get values less than 0.5 and classification as 0.
+8. In the output of prediction we will get values less than 0.7 .
    
 ### Example 2: Running the iRobot when hair or somedirt is surrounded around the wheel, which makes wheels rotation hard
 1. Repeat the steps 1 till 7 as in Example 1.
-2. In the output of prediction we will get values greater than 0.5 showing that maintenance is required and classification as 2, showing maintenance required of wheels.
+2. In the output of prediction we will get values greater than 0.7 showing that maintenance is required and classification as 2, showing maintenance required of wheels.
 
 
 ![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/dea14f3c8736bea9e57794c89ba15520e582e2fd/IMG-20240805-160439.jpg)
@@ -123,7 +124,7 @@ To get the data of the maintenance stage, I covered the wheels with the tape.
 
 ### Example 3: Running the iRobot where IR sensor is not able to detect small height object (such as wires or cardboard/paper):
 1. Repeat the steps 1 till 7 as in Example 1.
-2. In the output of prediction we will get values greater than 0.5 showing that maintenance is required and classification as 1, showing maintenance required because IR sensor can't detect an object.
+2. In the output of prediction we will get values greater than 0.7 showing that maintenance is required and classification as 1, showing maintenance required because IR sensor can't detect an object.
 ![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/3b9c0b02a497dc2d1fb50fc7246172cd54dab809/cliff%20error.jpg)
 
 
@@ -131,7 +132,7 @@ Robot dragging the piece of paper or cardboard and bundle of wire without detect
 
 ### Example 4: Running the iRobot when battery is less than 12%: 
 1. Repeat the steps 1 till 7 as in Example 1.
-2. In the output of prediction we will get values greater than 0.5 showing that maintenance is required and classification as 3, showing that battery of the robot is less, so charge it.
+2. In the output of prediction we will get values greater than 0.7 showing that maintenance is required and classification as 3, showing that battery of the robot is less, so charge it.
 ![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/ed27541316f45eddea25c7d2d706493f2aabc4ff/Screenshot_2024-10-01-09-07-14-23_92460851df6f172a4592fca41cc2d2e6.jpg)
 When robots battery is less than 12% the light on top of the robot starts blinking in red color.
 
@@ -159,10 +160,11 @@ Description of the milestones of this project:
 - /mouse : Reading from mouse sensor.
 - /odom : This represent an estimation of the position in free space.
 - /slip_status : Provide information about whether robots wheels are slipping or not.
+- /tf: Provide information about transform.
 - /stop_status : Provide information about whether robot is stopped or moving.
 - /wheel_status :  Current and PWM(pulse width modulation) readings from the robot's two wheels in addition to whether wheels are enabled.
 - /wheel_ticks : Count of encoder ticks for both wheels.
-- wheel_vels : Velocity of both wheels in rad/sec.
+- /wheel_vels : Velocity of both wheels in rad/sec.
 
 
 ## Folder structure
