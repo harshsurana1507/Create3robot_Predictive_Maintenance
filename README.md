@@ -169,48 +169,6 @@ Description of the milestones of this project:
 - /wheel_vels : Velocity of both wheels in rad/sec.
 
 
-## Folder structure
-Describe here, how your project is structured:
-Examples:
-```text
-project/
-```text
-create3_project/
-├── config/
-│   ├── rviz config
-│   ├── LiDAR sensor config
-│   └── mapper config
-├── include/
-│   └── Header file of the publisher
-├── launch/
-│   ├── old_lidar/
-│   │   └── Python files from create3_examples/create3_lidar_slam
-│   ├── old_nolidar/
-│   │   └── Python files based on create3_examples/create3_lidar_slam with modifications
-│   ├── launch_publisher.py (C++ tester)
-│   └── Python files (shortcuts) to launch all lidar or all no lidar files
-├── run/
-│   ├── map.py
-│   ├── run_avoider.py
-│   └── run_mapper.py
-└── src/
-    └── Implementation file of the publisher
-```
-Another example: A common approach for data science projects can be found [here](https://neptune.ai/blog/best-practices-for-data-science-project-workflows-and-file-organizations).
-
-```text
-create3_project/
-├── data/
-│   ├── external
-│   ├── interim
-│   ├── processed 
-│   └── processes
-├── models
-├── src/
-    ├── data
-    ├── features
-    └── model
-```
 
 <!-- LICENSE -->
 ## License
