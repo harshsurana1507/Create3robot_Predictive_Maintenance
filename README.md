@@ -80,20 +80,21 @@ The following steps can be repeated for multiple robots. Only there is a need to
     ```sh
    colcon build
    ```
-4. Search for the packages create3_control, create3_msg_transfer and create3_teleop in the list provided by the command
+4. Search for the package create3_msg_transfer in the list provided by the command
    ```sh
    ros2 pkg list
    ```
 5. If in the setup of robot you have specified a name of robot such as robot01 as I used in my case. Then change "robot01" with the name of the robot you chosed in every nodes of create3_main.
-6. Run the below code to check whether robot is moving or not. With this launch file the robot will detects obstacles and move accordingly.
+6. To run the robot a predeveloped code Create3 Teleoperation can be used which is on the official website of create 3, or code could be developed to run the robot autonomously by avoiding obstacles using IR sensors.
+7. After adding the package from official website of Create3 as mentioned in step 6, run the below code and use the keyboard keys to check whether robot is moving or not. 
     ```sh
-   ros2 launch create3_teleop ir_avoider.py
+   ros2 run teleop_twist_keyboard teleop_twist_keyboard
    ```
-7. Run  the below code to check whether all the sensors are sending the data or not. With this launch file we save the data from every sensor placed on the robot on the server. Every 1 second the data is saved as an excel file according to timestamps.
+8. Run  the below code to check whether all the sensors are sending the data or not. With this launch file we save the data from every sensor placed on the robot on the server. Every 1 second the data is saved as an excel file according to timestamps.
     ```sh
    ros2 launch create_3_msg_transfer subscriber_launch.py
    ```
-8. Download prediction.txt and classification.txt trained model from the google drive(Link added on main page).
+9. Download prediction.txt and classification.txt trained model from the google drive(Link added on main page).
    
 
 
@@ -104,9 +105,9 @@ The following steps can be repeated for multiple robots. Only there is a need to
 
 ### Example 1 : Running the iRobot without any error: 
 1. Run create_3_msg_transfer subscriber_launch.py
-2. Run ros2 launch create3_teleop ir_avoider.py
+2. Run ros2 run teleop_twist_keyboard teleop_twist_keyboard
 3. Let the robot run for about an hour.
-4. Press Ctrl+c in the terminal where launch file of ir_avoider is running.
+4. Press Ctrl+c in the terminal where teleop_twist_keyboard is running.
 5. Press Ctrl+c in the terminal where launch file of subscriber_launch is running.
 6. Run the excel_combine.py file to combine all the data of the sensors in 1 excel sheet according to the timestamp.
 7. Use the prediction.txt trained model and classification.txt trained model file. And give the location of the combined excel file.
