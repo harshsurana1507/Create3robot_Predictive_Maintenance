@@ -55,6 +55,7 @@ Hardware:
 - PC as a server with ROS2 Humble
 - Router for a Wi-Fi connection
 
+
 Setup:
 1. Setting up Create3 Educational Robots.
    -  Follow the steps as directed on the page: https://edu.irobot.com/create3-setup. And make sure to select "rmw_fastrtps_cpp" as the RMW_IMPLEMENTATION.
@@ -70,31 +71,30 @@ The following steps can be repeated for multiple robots. Only there is a need to
 
 ### Installation
 
-1. Download Create3_main-main zip file at the server PC and extract it.
-2. Open the terminal make sure everything is updated by using
+1. Open the terminal make sure everything is updated by using
     ```sh
    sudo apt update
    sudo apt upgrade -y
    ```
-3. Using terminal go to create3_main-main folder and enter the below command to install the packages on the server
+2. Using terminal go to create3_main-main folder (folder will be provided on request) and enter the below command to install the packages on the server
     ```sh
    colcon build
    ```
-4. Search for the package create3_msg_transfer in the list provided by the command
+3. Search for the package create3_msg_transfer in the list provided by the command
    ```sh
    ros2 pkg list
    ```
-5. If in the setup of robot you have specified a name of robot such as robot01 as I used in my case. Then change "robot01" with the name of the robot you chosed in every nodes of create3_main.
-6. To run the robot a predeveloped code Create3 Teleoperation can be used which is on the official website of create 3, or code could be developed to run the robot autonomously by avoiding obstacles using IR sensors.
-7. After adding the package from official website of Create3 as mentioned in step 6, run the below code and use the keyboard keys to check whether robot is moving or not. 
+4. If in the setup of robot you have specified a name of robot such as robot01 as I used in my case. Then change "robot01" with the name of the robot you chosed in every nodes of create3_main.
+5. To run the robot a predeveloped code Create3 Teleoperation can be used which is on the official website of create 3, or code could be developed to run the robot autonomously by avoiding obstacles using IR sensors.
+6. After adding the package from official website of Create3 as mentioned in step 6, run the below command and use the keyboard keys to check whether robot is moving or not. 
     ```sh
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
    ```
-8. Run  the below code to check whether all the sensors are sending the data or not. With this launch file we save the data from every sensor placed on the robot on the server. Every 1 second the data is saved as an excel file according to timestamps.
+7. Run the below command to check whether all the sensors are sending the data or not. With this launch file we save the data from every sensor of the robot on the server. Data will be gathered in every 1 second, and later on will be saved as an excel file according to timestamps.
     ```sh
    ros2 launch create_3_msg_transfer subscriber_launch.py
    ```
-9. Download prediction.txt and classification.txt trained model from the google drive(Link added on main page).
+8. Download prediction.txt and classification.txt trained model from the google drive(Link added on main page).
    
 
 
@@ -109,7 +109,7 @@ The following steps can be repeated for multiple robots. Only there is a need to
 3. Let the robot run for about an hour.
 4. Press Ctrl+c in the terminal where teleop_twist_keyboard is running.
 5. Press Ctrl+c in the terminal where launch file of subscriber_launch is running.
-6. Run the excel_combine.py file to combine all the data of the sensors in 1 excel sheet according to the timestamp.
+6. Run the excel_combine.py file to combine all the data of the sensors in a single excel sheet according to the timestamps.
 7. Use the prediction.txt trained model and classification.txt trained model file. And give the location of the combined excel file.
 8. In the output of prediction we will get values less than 0.7 .
    
