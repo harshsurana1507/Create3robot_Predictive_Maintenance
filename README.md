@@ -1,4 +1,4 @@
-# Machine learning enabled predictive maintenance framework for Create 3 mobile robot 
+# Machine learning enabled predictive maintenance framework for Create3 mobile robot 
 ![image_alt](https://github.com/harshsurana1507/Create3robot_Predictive_Maintenance/blob/92c8ae69ab1de3f565a2bcccb125c8a7de0fee8a/create3%20robot_1.jpg)
 Use https://shields.io/badges to create badges.
 
