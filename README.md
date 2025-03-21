@@ -76,7 +76,7 @@ The following steps can be repeated for multiple robots. Only there is a need to
    sudo apt update
    sudo apt upgrade -y
    ```
-2. Using terminal go to create3_main-main folder (folder will be provided on request) and enter the below command to install the packages on the server
+2. Using terminal go to create3_main_main folder and enter the below command to install the packages on the server
     ```sh
    colcon build
    ```
@@ -84,7 +84,7 @@ The following steps can be repeated for multiple robots. Only there is a need to
    ```sh
    ros2 pkg list
    ```
-4. If in the setup of robot you have specified a name of robot such as robot01 as I used in my case. Then change "robot01" with the name of the robot you chosed in every nodes of create3_main.
+4. If in the setup of robot you have specified a name of robot such as robot01 as I used in my case. Then change "robot01" with the name of the robot you chosed in every nodes of create3_msg_transfer.
 5. To run the robot a predeveloped code Create3 Teleoperation can be used which is on the official website of create 3, or code could be developed to run the robot autonomously by avoiding obstacles using IR sensors.
 6. After adding the package from official website of Create3 as mentioned in step 6, run the below command and use the keyboard keys to check whether robot is moving or not. 
     ```sh
