@@ -1,0 +1,17 @@
+[console_scripts]
+battery_state_subscriber = create3_msg_transfer.battery_state_subscriber:main
+cliff_intensity_subscriber = create3_msg_transfer.cliff_intensity_subscriber:main
+dock_status_subscriber = create3_msg_transfer.dock_status_subscriber:main
+imu_subscriber = create3_msg_transfer.imu_subscriber:main
+ir_intensity_subscriber = create3_msg_transfer.ir_intensity_subscriber:main
+ir_opcode_subscriber = create3_msg_transfer.ir_opcode_subscriber:main
+kidnap_status_subscriber = create3_msg_transfer.kidnap_status_subscriber:main
+mouse_subscriber = create3_msg_transfer.mouse_subscriber:main
+odom_subscriber = create3_msg_transfer.odom_subscriber:main
+slip_status_subscriber = create3_msg_transfer.slip_status_subscriber:main
+stop_status_subscriber = create3_msg_transfer.stop_status_subscriber:main
+tf_subscriber = create3_msg_transfer.tf_subscriber:main
+wheel_status_subscriber = create3_msg_transfer.wheel_status_subscriber:main
+wheel_ticks_subscriber = create3_msg_transfer.wheel_ticks_subscriber:main
+wheel_vels_subscriber = create3_msg_transfer.wheel_vels_subscriber:main
+

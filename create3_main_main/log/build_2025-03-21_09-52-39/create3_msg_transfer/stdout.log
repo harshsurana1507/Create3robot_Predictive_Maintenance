@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/create3_msg_transfer/create3_msg_transfer.egg-info
+writing ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/PKG-INFO
+writing dependency_links to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/dependency_links.txt
+writing entry points to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/entry_points.txt
+writing requirements to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/requires.txt
+writing top-level names to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/top_level.txt
+writing manifest file '../../build/create3_msg_transfer/create3_msg_transfer.egg-info/SOURCES.txt'
+reading manifest file '../../build/create3_msg_transfer/create3_msg_transfer.egg-info/SOURCES.txt'
+writing manifest file '../../build/create3_msg_transfer/create3_msg_transfer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/evolveros1/create3_main/build/create3_msg_transfer/build
+creating /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib
+creating /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/__init__.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+running install
+running install_lib
+creating /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/__init__.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/evolveros1/create3_main/install/create3_msg_transfer/share/ament_index
+creating /home/evolveros1/create3_main/install/create3_msg_transfer/share/ament_index/resource_index
+creating /home/evolveros1/create3_main/install/create3_msg_transfer/share/ament_index/resource_index/packages
+copying resource/create3_msg_transfer -> /home/evolveros1/create3_main/install/create3_msg_transfer/share/ament_index/resource_index/packages
+copying package.xml -> /home/evolveros1/create3_main/install/create3_msg_transfer/share/create3_msg_transfer
+running install_egg_info
+Copying ../../build/create3_msg_transfer/create3_msg_transfer.egg-info to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/evolveros1/create3_main/build/create3_msg_transfer/install.log'

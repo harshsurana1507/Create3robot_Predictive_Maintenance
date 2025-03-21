@@ -1,0 +1,78 @@
+running egg_info
+writing ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/PKG-INFO
+writing dependency_links to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/dependency_links.txt
+writing entry points to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/entry_points.txt
+writing requirements to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/requires.txt
+writing top-level names to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/top_level.txt
+reading manifest file '../../build/create3_msg_transfer/create3_msg_transfer.egg-info/SOURCES.txt'
+writing manifest file '../../build/create3_msg_transfer/create3_msg_transfer.egg-info/SOURCES.txt'
+running build
+running build_py
+copying create3_msg_transfer/tf_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/battery_state_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/wheel_vels_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/wheel_ticks_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/kidnap_status_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/dock_status_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/mouse_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/ir_intensity_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/wheel_status_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/slip_status_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/imu_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/odom_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/cliff_intensity_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/stop_status_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+copying create3_msg_transfer/ir_opcode_subscriber.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer
+running install
+running install_lib
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/tf_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/battery_state_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/wheel_vels_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/wheel_ticks_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/kidnap_status_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/dock_status_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/mouse_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/ir_intensity_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/wheel_status_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/slip_status_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/imu_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/odom_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/cliff_intensity_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/stop_status_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/ir_opcode_subscriber.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/tf_subscriber.py to tf_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/battery_state_subscriber.py to battery_state_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/wheel_vels_subscriber.py to wheel_vels_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/wheel_ticks_subscriber.py to wheel_ticks_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/kidnap_status_subscriber.py to kidnap_status_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/dock_status_subscriber.py to dock_status_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/mouse_subscriber.py to mouse_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/ir_intensity_subscriber.py to ir_intensity_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/wheel_status_subscriber.py to wheel_status_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/slip_status_subscriber.py to slip_status_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/imu_subscriber.py to imu_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/odom_subscriber.py to odom_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/cliff_intensity_subscriber.py to cliff_intensity_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/stop_status_subscriber.py to stop_status_subscriber.cpython-310.pyc
+byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/ir_opcode_subscriber.py to ir_opcode_subscriber.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/create3_msg_transfer/create3_msg_transfer.egg-info to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing battery_state_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing cliff_intensity_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing dock_status_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing imu_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing ir_intensity_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing ir_opcode_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing kidnap_status_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing mouse_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing odom_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing slip_status_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing stop_status_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing tf_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing wheel_status_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing wheel_ticks_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+Installing wheel_vels_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+writing list of installed files to '/home/evolveros1/create3_main/build/create3_msg_transfer/install.log'

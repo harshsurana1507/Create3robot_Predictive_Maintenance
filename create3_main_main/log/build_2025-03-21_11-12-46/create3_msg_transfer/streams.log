@@ -1,0 +1,36 @@
+[0.706s] Invoking command in '/home/evolveros1/create3_main/src/create3_msg_transfer': PYTHONPATH=/home/evolveros1/create3_main/build/create3_msg_transfer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/create3_msg_transfer build --build-base /home/evolveros1/create3_main/build/create3_msg_transfer/build install --record /home/evolveros1/create3_main/build/create3_msg_transfer/install.log --single-version-externally-managed install_data
+[0.969s] running egg_info
+[0.969s] writing ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/PKG-INFO
+[0.970s] writing dependency_links to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/dependency_links.txt
+[0.970s] writing entry points to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/entry_points.txt
+[0.970s] writing requirements to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/requires.txt
+[0.971s] writing top-level names to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/top_level.txt
+[0.973s] reading manifest file '../../build/create3_msg_transfer/create3_msg_transfer.egg-info/SOURCES.txt'
+[0.974s] writing manifest file '../../build/create3_msg_transfer/create3_msg_transfer.egg-info/SOURCES.txt'
+[0.975s] running build
+[0.975s] running build_py
+[0.976s] running install
+[0.976s] running install_lib
+[0.978s] running install_data
+[0.978s] copying package.xml -> /home/evolveros1/create3_main/install/create3_msg_transfer/share/create3_msg_transfer
+[0.979s] running install_egg_info
+[0.982s] removing '/home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer-0.0.0-py3.10.egg-info' (and everything under it)
+[0.982s] Copying ../../build/create3_msg_transfer/create3_msg_transfer.egg-info to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer-0.0.0-py3.10.egg-info
+[0.984s] running install_scripts
+[1.005s] Installing battery_state_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.005s] Installing cliff_intensity_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.006s] Installing dock_status_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.006s] Installing imu_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.006s] Installing ir_intensity_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.006s] Installing ir_opcode_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.007s] Installing kidnap_status_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.007s] Installing mouse_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.007s] Installing odom_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.007s] Installing slip_status_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.008s] Installing stop_status_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.008s] Installing tf_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.008s] Installing wheel_status_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.009s] Installing wheel_ticks_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.009s] Installing wheel_vels_subscriber script to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/create3_msg_transfer
+[1.010s] writing list of installed files to '/home/evolveros1/create3_main/build/create3_msg_transfer/install.log'
+[1.049s] Invoked command in '/home/evolveros1/create3_main/src/create3_msg_transfer' returned '0': PYTHONPATH=/home/evolveros1/create3_main/build/create3_msg_transfer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/create3_msg_transfer build --build-base /home/evolveros1/create3_main/build/create3_msg_transfer/build install --record /home/evolveros1/create3_main/build/create3_msg_transfer/install.log --single-version-externally-managed install_data

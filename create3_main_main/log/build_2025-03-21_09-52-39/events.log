@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.001673] (create3_msg_transfer) JobQueued: {'identifier': 'create3_msg_transfer', 'dependencies': OrderedDict()}
+[0.001749] (create3_msg_transfer) JobStarted: {'identifier': 'create3_msg_transfer'}
+[0.100073] (-) TimerEvent: {}
+[0.200439] (-) TimerEvent: {}
+[0.300824] (-) TimerEvent: {}
+[0.401393] (-) TimerEvent: {}
+[0.502091] (-) TimerEvent: {}
+[0.603271] (-) TimerEvent: {}
+[0.704450] (-) TimerEvent: {}
+[0.805692] (-) TimerEvent: {}
+[0.906880] (-) TimerEvent: {}
+[1.008021] (-) TimerEvent: {}
+[1.109007] (-) TimerEvent: {}
+[2.699482] (-) TimerEvent: {}
+[2.800531] (-) TimerEvent: {}
+[2.901544] (-) TimerEvent: {}
+[3.002730] (-) TimerEvent: {}
+[3.103791] (-) TimerEvent: {}
+[3.205082] (-) TimerEvent: {}
+[3.306305] (-) TimerEvent: {}
+[3.407699] (-) TimerEvent: {}
+[3.509141] (-) TimerEvent: {}
+[3.610498] (-) TimerEvent: {}
+[3.712119] (-) TimerEvent: {}
+[3.812516] (-) TimerEvent: {}
+[3.912911] (-) TimerEvent: {}
+[4.013336] (-) TimerEvent: {}
+[4.113732] (-) TimerEvent: {}
+[4.214143] (-) TimerEvent: {}
+[4.314512] (-) TimerEvent: {}
+[4.415007] (-) TimerEvent: {}
+[4.515388] (-) TimerEvent: {}
+[4.615974] (-) TimerEvent: {}
+[4.717131] (-) TimerEvent: {}
+[4.818385] (-) TimerEvent: {}
+[4.919491] (-) TimerEvent: {}
+[5.020590] (-) TimerEvent: {}
+[5.121480] (-) TimerEvent: {}
+[5.222918] (-) TimerEvent: {}
+[5.324379] (-) TimerEvent: {}
+[5.425853] (-) TimerEvent: {}
+[5.527307] (-) TimerEvent: {}
+[5.628808] (-) TimerEvent: {}
+[5.730143] (-) TimerEvent: {}
+[5.831539] (-) TimerEvent: {}
+[5.932986] (-) TimerEvent: {}
+[6.034456] (-) TimerEvent: {}
+[6.135476] (-) TimerEvent: {}
+[6.237314] (-) TimerEvent: {}
+[6.338668] (-) TimerEvent: {}
+[6.439827] (-) TimerEvent: {}
+[6.540892] (-) TimerEvent: {}
+[6.642266] (-) TimerEvent: {}
+[6.743760] (-) TimerEvent: {}
+[6.845282] (-) TimerEvent: {}
+[6.946833] (-) TimerEvent: {}
+[7.861525] (-) TimerEvent: {}
+[7.963004] (-) TimerEvent: {}
+[8.064610] (-) TimerEvent: {}
+[8.166066] (-) TimerEvent: {}
+[8.267854] (-) TimerEvent: {}
+[8.369375] (-) TimerEvent: {}
+[8.470836] (-) TimerEvent: {}
+[8.572332] (-) TimerEvent: {}
+[8.673977] (-) TimerEvent: {}
+[8.775554] (-) TimerEvent: {}
+[8.877525] (-) TimerEvent: {}
+[8.979071] (-) TimerEvent: {}
+[9.080785] (-) TimerEvent: {}
+[9.182346] (-) TimerEvent: {}
+[9.283922] (-) TimerEvent: {}
+[9.385478] (-) TimerEvent: {}
+[9.487107] (-) TimerEvent: {}
+[9.588690] (-) TimerEvent: {}
+[9.690277] (-) TimerEvent: {}
+[9.791910] (-) TimerEvent: {}
+[9.893486] (-) TimerEvent: {}
+[9.994930] (-) TimerEvent: {}
+[10.096385] (-) TimerEvent: {}
+[10.198114] (-) TimerEvent: {}
+[10.299663] (-) TimerEvent: {}
+[10.401299] (-) TimerEvent: {}
+[10.502781] (-) TimerEvent: {}
+[10.604453] (-) TimerEvent: {}
+[10.706020] (-) TimerEvent: {}
+[10.807832] (-) TimerEvent: {}
+[10.909127] (-) TimerEvent: {}
+[11.009960] (-) TimerEvent: {}
+[11.110891] (-) TimerEvent: {}
+[11.212469] (-) TimerEvent: {}
+[11.314142] (-) TimerEvent: {}
+[11.415761] (-) TimerEvent: {}
+[11.517580] (-) TimerEvent: {}
+[11.619096] (-) TimerEvent: {}
+[11.720681] (-) TimerEvent: {}
+[11.822232] (-) TimerEvent: {}
+[11.923970] (-) TimerEvent: {}
+[12.025656] (-) TimerEvent: {}
+[12.155760] (-) TimerEvent: {}
+[12.257441] (-) TimerEvent: {}
+[12.359153] (-) TimerEvent: {}
+[12.460718] (-) TimerEvent: {}
+[12.562281] (-) TimerEvent: {}
+[12.663696] (-) TimerEvent: {}
+[12.764757] (-) TimerEvent: {}
+[12.866338] (-) TimerEvent: {}
+[12.968175] (-) TimerEvent: {}
+[13.069355] (-) TimerEvent: {}
+[13.170014] (-) TimerEvent: {}
+[13.270607] (-) TimerEvent: {}
+[13.371637] (-) TimerEvent: {}
+[13.473618] (-) TimerEvent: {}
+[13.575447] (-) TimerEvent: {}
+[13.676750] (-) TimerEvent: {}
+[13.778144] (-) TimerEvent: {}
+[13.879350] (-) TimerEvent: {}
+[13.980831] (-) TimerEvent: {}
+[14.082528] (-) TimerEvent: {}
+[14.183426] (-) TimerEvent: {}
+[14.284647] (-) TimerEvent: {}
+[14.386281] (-) TimerEvent: {}
+[14.487776] (-) TimerEvent: {}
+[14.589353] (-) TimerEvent: {}
+[14.691185] (-) TimerEvent: {}
+[14.793392] (-) TimerEvent: {}
+[14.894561] (-) TimerEvent: {}
+[14.995221] (-) TimerEvent: {}
+[15.096188] (-) TimerEvent: {}
+[15.197074] (-) TimerEvent: {}
+[15.298534] (-) TimerEvent: {}
+[15.399731] (-) TimerEvent: {}
+[15.500529] (-) TimerEvent: {}
+[15.602432] (-) TimerEvent: {}
+[15.704185] (-) TimerEvent: {}
+[15.805668] (-) TimerEvent: {}
+[15.906905] (-) TimerEvent: {}
+[16.007995] (-) TimerEvent: {}
+[16.108874] (-) TimerEvent: {}
+[16.210183] (-) TimerEvent: {}
+[16.311340] (-) TimerEvent: {}
+[16.412438] (-) TimerEvent: {}
+[16.512969] (-) TimerEvent: {}
+[16.613787] (-) TimerEvent: {}
+[16.674275] (create3_msg_transfer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/create3_msg_transfer', 'build', '--build-base', '/home/evolveros1/create3_main/build/create3_msg_transfer/build', 'install', '--record', '/home/evolveros1/create3_main/build/create3_msg_transfer/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/evolveros1/create3_main/src/create3_msg_transfer', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'evolveros1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/evolveros1', 'OLDPWD': '/home/evolveros1', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'COLCON_PREFIX_PATH': '/home/evolveros1/ros2_ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'evolveros1', 'NAME': 'DESKTOP-48IF72C', 'WSL_INTEROP': '/run/WSL/3432_interop', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/evolveros1/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/e/work/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Git/cmd:/mnt/c/Users/Dell/AppData/Local/Microsoft/WindowsApps:/mnt/e/pycharm software/extraction/PyCharm Community Edition 2023.2.5/bin:/mnt/c/Users/Dell/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/evolveros1/ros2_ws/install/my_robot_controller:/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/evolveros1/create3_main/build/create3_msg_transfer', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/evolveros1/create3_main/build/create3_msg_transfer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages:/home/evolveros1/ros2_ws/build/my_robot_controller:/home/evolveros1/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[16.713947] (-) TimerEvent: {}
+[16.814478] (-) TimerEvent: {}
+[16.915156] (-) TimerEvent: {}
+[17.015506] (-) TimerEvent: {}
+[17.115886] (-) TimerEvent: {}
+[17.207717] (create3_msg_transfer) StdoutLine: {'line': b'running egg_info\n'}
+[17.208298] (create3_msg_transfer) StdoutLine: {'line': b'creating ../../build/create3_msg_transfer/create3_msg_transfer.egg-info\n'}
+[17.208571] (create3_msg_transfer) StdoutLine: {'line': b'writing ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/PKG-INFO\n'}
+[17.208830] (create3_msg_transfer) StdoutLine: {'line': b'writing dependency_links to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/dependency_links.txt\n'}
+[17.209174] (create3_msg_transfer) StdoutLine: {'line': b'writing entry points to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/entry_points.txt\n'}
+[17.209379] (create3_msg_transfer) StdoutLine: {'line': b'writing requirements to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/requires.txt\n'}
+[17.209703] (create3_msg_transfer) StdoutLine: {'line': b'writing top-level names to ../../build/create3_msg_transfer/create3_msg_transfer.egg-info/top_level.txt\n'}
+[17.209804] (create3_msg_transfer) StdoutLine: {'line': b"writing manifest file '../../build/create3_msg_transfer/create3_msg_transfer.egg-info/SOURCES.txt'\n"}
+[17.211385] (create3_msg_transfer) StdoutLine: {'line': b"reading manifest file '../../build/create3_msg_transfer/create3_msg_transfer.egg-info/SOURCES.txt'\n"}
+[17.212139] (create3_msg_transfer) StdoutLine: {'line': b"writing manifest file '../../build/create3_msg_transfer/create3_msg_transfer.egg-info/SOURCES.txt'\n"}
+[17.212511] (create3_msg_transfer) StdoutLine: {'line': b'running build\n'}
+[17.212777] (create3_msg_transfer) StdoutLine: {'line': b'running build_py\n'}
+[17.212975] (create3_msg_transfer) StdoutLine: {'line': b'creating /home/evolveros1/create3_main/build/create3_msg_transfer/build\n'}
+[17.213359] (create3_msg_transfer) StdoutLine: {'line': b'creating /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib\n'}
+[17.213454] (create3_msg_transfer) StdoutLine: {'line': b'creating /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer\n'}
+[17.213518] (create3_msg_transfer) StdoutLine: {'line': b'copying create3_msg_transfer/__init__.py -> /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer\n'}
+[17.213590] (create3_msg_transfer) StdoutLine: {'line': b'running install\n'}
+[17.213916] (create3_msg_transfer) StdoutLine: {'line': b'running install_lib\n'}
+[17.214812] (create3_msg_transfer) StdoutLine: {'line': b'creating /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer\n'}
+[17.215187] (create3_msg_transfer) StdoutLine: {'line': b'copying /home/evolveros1/create3_main/build/create3_msg_transfer/build/lib/create3_msg_transfer/__init__.py -> /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer\n'}
+[17.215994] (-) TimerEvent: {}
+[17.216983] (create3_msg_transfer) StdoutLine: {'line': b'byte-compiling /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer/__init__.py to __init__.cpython-310.pyc\n'}
+[17.217718] (create3_msg_transfer) StdoutLine: {'line': b'running install_data\n'}
+[17.218117] (create3_msg_transfer) StdoutLine: {'line': b'creating /home/evolveros1/create3_main/install/create3_msg_transfer/share/ament_index\n'}
+[17.218562] (create3_msg_transfer) StdoutLine: {'line': b'creating /home/evolveros1/create3_main/install/create3_msg_transfer/share/ament_index/resource_index\n'}
+[17.218761] (create3_msg_transfer) StdoutLine: {'line': b'creating /home/evolveros1/create3_main/install/create3_msg_transfer/share/ament_index/resource_index/packages\n'}
+[17.219084] (create3_msg_transfer) StdoutLine: {'line': b'copying resource/create3_msg_transfer -> /home/evolveros1/create3_main/install/create3_msg_transfer/share/ament_index/resource_index/packages\n'}
+[17.219304] (create3_msg_transfer) StdoutLine: {'line': b'copying package.xml -> /home/evolveros1/create3_main/install/create3_msg_transfer/share/create3_msg_transfer\n'}
+[17.219428] (create3_msg_transfer) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.235035] (create3_msg_transfer) StdoutLine: {'line': b'Copying ../../build/create3_msg_transfer/create3_msg_transfer.egg-info to /home/evolveros1/create3_main/install/create3_msg_transfer/lib/python3.10/site-packages/create3_msg_transfer-0.0.0-py3.10.egg-info\n'}
+[17.236354] (create3_msg_transfer) StdoutLine: {'line': b'running install_scripts\n'}
+[17.293301] (create3_msg_transfer) StdoutLine: {'line': b"writing list of installed files to '/home/evolveros1/create3_main/build/create3_msg_transfer/install.log'\n"}
+[17.316197] (-) TimerEvent: {}
+[17.325509] (create3_msg_transfer) CommandEnded: {'returncode': 0}
+[17.340498] (create3_msg_transfer) JobEnded: {'identifier': 'create3_msg_transfer', 'rc': 0}
+[17.341228] (-) EventReactorShutdown: {}
